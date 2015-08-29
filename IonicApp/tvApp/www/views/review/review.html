@@ -1,0 +1,38 @@
+<ion-view view-title="Reviews">
+  <ion-content>
+
+ <button class="button button-full button-assertive" ng-click="submitReview()">
+      Submit Your Review </button>
+    <button class="button button-full button-assertive" ng-click="seeReview()">
+    See Others Reviews  </button>
+     <div ng-show="reviewhide">
+    <div class="list assertive">
+        <label class="item item-input">
+          <input type="text" placeholder="First Name" ng-model="username">
+        </label>
+        <label class="item item-input">
+          <input type="text" placeholder="Last Name" ng-model="userlastname">
+        </label>
+        <label class="item item-input">
+          <textarea placeholder="Comments" ng-model="usercomment"></textarea>
+        </label>
+      <button class="button button-full button-assertive" ng-disabled="!username || !userlastname || !usercomment" ng-click="clickReview()">
+            Submit      </button>
+      </div>
+     </div>
+
+    <div ng-show="review">
+      <div class="card padding">
+        <div class="list" ng-repeat="review in rev">
+          <h2 style="text-align: center">{{review.Review_Name.username}}</h2>
+          <p style="text-align: center">{{review.timestamp | date : 'medium' }}</p>
+          <div class="item item-body">
+          <p>
+            {{review.Review_Name.usercomment}}
+          </p>
+        </div>
+      </div>
+      </div>
+      </div>
+  </ion-content>
+</ion-view>
