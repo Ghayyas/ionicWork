@@ -1,0 +1,17 @@
+<ion-view view-title="Religious Channels">
+  <ion-content>
+    <div class="list">
+
+      <div ng-repeat="channel in channels">
+        <div ng-show="channel.category == 'religion'">
+          <a href="{{channel.href}}" class="item item-avatar assertive">
+            <img src="{{channel.img}}">
+            {{channel.name}}
+
+          </a>
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
+

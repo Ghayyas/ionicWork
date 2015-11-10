@@ -1,0 +1,27 @@
+<ion-view view-title="FM 100">
+  <ion-content>
+    <div class="list card">
+
+      <div class="item item-avatar">
+        <img src="./img/fm100.jpg">
+        <h2>Fm 100</h2>
+        <p>Karachi Fm</p>
+      </div>
+
+      <div class="item item-image">
+        <img src="./img/fm100.jpg">
+      </div>
+
+      <button class="item item-icon-left assertive" ng-click="play100()"ng-show="paus">
+        <i class="icon ion-music-note"></i>
+        Start listening
+      </button>
+
+      <button class="item item-icon-left assertive" ng-click="pause()" ng-show="pla">
+        <i class="icon ion-android-hand"></i>
+        Stop
+      </button>
+
+    </div>
+  </ion-content>
+</ion-view>

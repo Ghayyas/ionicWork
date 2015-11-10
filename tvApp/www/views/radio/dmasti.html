@@ -1,0 +1,26 @@
+<ion-view view-title="Dmasti Radio">
+  <ion-content>
+    <div class="list card">
+
+      <div class="item item-avatar">
+        <img src="./img/dmasti.jpg">
+        <h2>DMasti</h2>
+        <p>InterNet Radio</p>
+      </div>
+
+      <div class="item item-image">
+        <img src="./img/dmasti.jpg">
+      </div>
+
+      <button class="item item-icon-left assertive" ng-click="playdmasti()" ng-show="paus">
+        <i class="icon ion-music-note"></i>
+        Start listening
+      </button>
+      <button class="item item-icon-left assertive" ng-click="pause()" ng-show="pla">
+        <i class="icon ion-android-hand"></i>
+        Stop
+      </button>
+
+    </div>
+  </ion-content>
+</ion-view>

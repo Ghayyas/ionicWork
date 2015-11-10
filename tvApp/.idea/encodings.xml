@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/www/js/app.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/views/allchannels/bar.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/views/allchannels/bbc.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/views/allchannels/colors.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/views/allchannels/wwe.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/views/review/review.html" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/www/views/settings/settings.html" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,14 @@
+<ion-view view-title="Ionic Tv">
+  <ion-content>
+
+    <div class="list">
+
+      <div ng-repeat="channel in channels">
+
+        <a href="{{channel.href}}" class="item item-avatar assertive">
+         <img src="{{channel.img}}">
+          {{channel.name}}</a>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
